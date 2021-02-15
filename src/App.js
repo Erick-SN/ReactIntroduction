@@ -1,12 +1,15 @@
-import './App.css';
-
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 const App = () => {
   return (
-    <div className="App">
-      <div className="content">
-        <h1>App Content</h1>
+    <>
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <Home />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
